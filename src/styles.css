@@ -8,6 +8,10 @@
 body {
   background-color: var(--page-background-colour);
   font-family: "Outfit", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .qr-card {
@@ -15,8 +19,6 @@ body {
   text-align: center;
   max-width: 320px;
   max-height: 500px;
-  display: block;
-  margin: 560px auto;
   border-radius: 20px;
 }
 
